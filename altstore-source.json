@@ -16,12 +16,12 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "1.0.10",
-          "buildVersion": "10",
-          "date": "2026-11-03T21:37:45Z",
-          "localizedDescription": "- Добавлена поддержка альтернативных провайдеров видео (Collaps и Kodik)\n- Улучшена ротация зеркал и предотвращено зацикливание при проверках Cloudflare Turnstile и Anubis\n- iOS/iPadOS: улучшена сортировка качества HLS, движок загрузок и интеграция с SideStore/AltStore\n- Android Mobile/Tablet/TV: оптимизация стабильности воспроизведения HLS и навигации",
-          "downloadURL": "https://github.com/QbyteDev/HdRezka-Releases/releases/download/v1.0.10/Rezka.ipa",
-          "size": 25764088,
+          "version": "1.0.11",
+          "buildVersion": "11",
+          "date": "2026-11-03T22:20:51Z",
+          "localizedDescription": "- Добавлена специфичная инжекция CDN-заголовков для внешних провайдеров видео (Collaps и Kodik)\n- iOS: исправлен парсинг видеопотоков, маршрутизация локального прокси и определение HLS-плейлистов\n- Android: улучшена передача контекста провайдеров между экранами и конфигурация ExoPlayer DataSource",
+          "downloadURL": "https://github.com/QbyteDev/HdRezka-Releases/releases/download/v1.0.11/Rezka.ipa",
+          "size": 25767787,
           "minOSVersion": "17.0"
         }
       ],
